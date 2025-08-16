@@ -1,0 +1,53 @@
+        body {
+				background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+				min-height: 100vh;
+				font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+			}
+			.card-clinica {
+				background: #fff;
+				border-radius: 1.5rem;
+				box-shadow: 0 8px 32px rgba(60, 60, 120, 0.12);
+				padding: 2.5rem 2rem;
+			}
+			.clinica-header {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				margin-bottom: 2rem;
+			}
+			.clinica-header img {
+				height: 56px;
+				width: 56px;
+			}
+			.clinica-title {
+				font-weight: 700;
+				font-size: 2.2rem;
+				color: #2d3748;
+				letter-spacing: 1px;
+			}
+			.form-label {
+				font-weight: 600;
+				color: #374151;
+			}
+			.form-control-lg {
+				border-radius: 0.75rem;
+				font-size: 1.1rem;
+			}
+			.btn-lg {
+				border-radius: 0.75rem;
+				font-size: 1.1rem;
+			}
+			.table-responsive {
+				border-radius: 1rem;
+				box-shadow: 0 2px 12px rgba(60, 60, 120, 0.08);
+				background: #f8fafc;
+			}
+			.table thead {
+				background: #e0e7ff;
+			}
+			.table-hover tbody tr:hover {
+				background: #e0e7ff;
+			}
+			.btn-outline-secondary {
+				border-radius: 0.75rem;
+			}
